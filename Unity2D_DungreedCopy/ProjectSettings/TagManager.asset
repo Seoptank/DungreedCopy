@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - FieldItem
+  - Monster
+  - ItemFairy
+  - TransferScene
+  - MapBorder
+  - PassingPlatform
+  - Bullet
+  - Sword
+  - Platform
+  - BossBound
+  - NPC
+  - UI
+  - Enemy
+  - PlayerAttack
+  - Boss
+  - Dungeons
+  - Door
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Player
+  - Water
+  - UI
+  - Platform
+  - Monster
+  - Minimap
+  - PassingPlatform
+  - DiePiece
+  - Item
+  - NPC
+  - Enemy
+  - PlayerAttack
+  - BreakableObject
+  - BrokenObject
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Main
+    uniqueID: 2256310735
+    locked: 0
+  - name: BackGround
+    uniqueID: 644925601
+    locked: 0
+  - name: Objects
+    uniqueID: 2553740329
+    locked: 0
+  - name: NPC
+    uniqueID: 709684633
+    locked: 0
+  - name: Enemy
+    uniqueID: 2739260671
+    locked: 0
+  - name: Effect
+    uniqueID: 961843539
+    locked: 0
+  - name: Player
+    uniqueID: 3996950701
+    locked: 0
+  - name: PlayerEffect
+    uniqueID: 2348327495
+    locked: 0
+  - name: Effect
+    uniqueID: 1252276253
+    locked: 0
+  - name: PlayerUI
+    uniqueID: 202926745
+    locked: 0
+  - name: OtherUI
+    uniqueID: 832934297
+    locked: 0

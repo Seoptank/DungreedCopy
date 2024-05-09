@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Scene(YS)/Original.unity
+    guid: e31189c93fbd0b347893d51599a1c23c
+  - enabled: 1
+    path: Assets/Scenes/Scene(YS)/Scene(Yuseop).unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Scene(YS)/SkelBoss.unity
+    guid: 265b57cbb8cdcb54c93435883db23833
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: d37ad6ec74659aa49b6423ad4d721275
+  m_configObjects: {}
