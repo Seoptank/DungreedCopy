@@ -14,5 +14,5 @@ Unity 2D를 이용해 만든 던그리드 모작입니다.
 3. Window10
 ## 🧪사용 기술
 ## 💊구현 기능
-## [🚩기술서 링크](https://discord.com/channels/@me/1082488234484965436/1238903112857550948](https://docs.google.com/presentation/d/1jHJAIKg0ex0KCO2hozneaqXTghVdsbdJ29tOFAVNDkg/edit?usp=sharing))
+## [🚩기술서 링크](https://docs.google.com/presentation/d/1jHJAIKg0ex0KCO2hozneaqXTghVdsbdJ29tOFAVNDkg/edit?usp=sharing)
 ## 🎬 영상링크
