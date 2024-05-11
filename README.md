@@ -7,10 +7,11 @@
 ## 📈프로젝트 소개
 1. 개발기간: 6주
 ## 🏰개발 환경
-<h3 align="center"><b>🎮 GamingTool 🎮</b></h3>
+<h3 align="center"><b>🎮 Game Engine 🎮</b></h3>
 <p align="center">
 <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white"/>
 </p>
+<>
 ## 🧪사용 기술
 |**기술**|**설명**|
 |:---:|:---|
