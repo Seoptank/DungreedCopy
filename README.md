@@ -8,7 +8,6 @@
 1. 개발기간: 6주
 ## 🏰개발 환경
 <h3 align="center"><b>🎮 GamingTool 🎮</b></h3>
-</br>
 <p align="center">
 <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white"/>
 </p>
