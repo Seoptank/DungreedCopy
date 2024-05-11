@@ -7,7 +7,12 @@
 ## 📈프로젝트 소개
 1. 개발기간: 6주
 ## 🏰개발 환경
-<h3 align="center"><b>🎮 Game Engine 🎮</b></h3>
+
+<h3 align="center"><b>📚 언 📚</b></h3>
+<p align="center">
+<img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/>
+</p>
+<h3 align="center"><b>🎮 게임 엔진 🎮</b></h3>
 <p align="center">
 <img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white"/>
 </p>
