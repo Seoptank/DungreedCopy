@@ -9,7 +9,7 @@
 ## 🏰개발 환경
 1. Unity 2022.03.12.f1
 
-2. C# <[img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/]
+2. C# [<[img src="https://img.shields.io/badge/HTML-E34F26?style=flat-square&logo=HTML5&logoColor=white"/]]
 
 3. Window10
 ## 🧪사용 기술
