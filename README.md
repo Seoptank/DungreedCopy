@@ -7,11 +7,12 @@
 ## 📈프로젝트 소개
 1. 개발기간: 6주
 ## 🏰개발 환경
-1. Unity 2022.03.12.f1
-
-2. C# <img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/>
-
-3. Window10
+<h3 align="center"><b>🎮 Gaming 🎮</b></h3>
+</br>
+<p align="center">
+<img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white"/>
+<img src="https://img.shields.io/badge/unrealengine-%23313131.svg?style=for-the-badge&logo=unrealengine&logoColor=white"/>
+</p>
 ## 🧪사용 기술
 |**기술**|**설명**|
 |:---:|:---|
