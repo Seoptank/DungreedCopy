@@ -95,6 +95,12 @@ public class BossPattern : MonoBehaviour
 
     private void OnEnable()
     {
+        AudioManager.Instance.PlayMusic("Boss");
+        StartCoroutine(AutoChangeToIdle());
+    }
+    private IEnumerator AutoChangeToIdle()
+    {
+        yield return new WaitForSeconds(4f);
         ChangeBossState(BossState.Idle);    
     }
     private void OnDisable()
@@ -156,9 +162,7 @@ public class BossPattern : MonoBehaviour
 
     private IEnumerator Idle()
     {
-        yield return new WaitForSeconds(5f);
-        // 실험용 코드
-        //ChangeBossState(BossState.SwordAttack);
+        yield return new WaitForSeconds(1f);
 
         //실제 사용할 코드
         StartCoroutine("AutoChangeBossAttack");
@@ -172,6 +176,8 @@ public class BossPattern : MonoBehaviour
 
     private IEnumerator Die()
     {
+        isDie =  true;
+        AudioManager.Instance.OffMusic();
         imageBossDieEffect.gameObject.SetActive(true);
         imageBossDieEffect.color = Color.white;
 
@@ -182,6 +188,7 @@ public class BossPattern : MonoBehaviour
 
         StartCoroutine(ChangeCamPos());
         PlayExplosionEffect(transform.position + new Vector3(0.5f, -1f, 0), Quaternion.identity, new Vector3(2f, 2f, 2f));
+        AudioManager.Instance.PlaySFX("EnemyDie");
 
         yield return new WaitForSeconds(1f);
 
@@ -306,7 +313,7 @@ public class BossPattern : MonoBehaviour
             GameObject bossSwordSpawn = bossSwordSpawnPoolManager.ActivePoolItem();
             bossSwordSpawn.transform.position = spawnTransforms[i].position;
             bossSwordSpawn.transform.rotation = transform.rotation;
-            bossSwordSpawn.GetComponent<BossSwordSpawnEffect>().Setup(bossSwordSpawnPoolManager);
+            bossSwordSpawn.GetComponent<BossSwordSpawnEffect>().Setup(bossSwordSpawnPoolManager,this);
         }
         StartCoroutine("AutoChangeFromSwordToIdle");
     }
@@ -336,7 +343,7 @@ public class BossPattern : MonoBehaviour
                 GameObject tempObj = headAttackPoolManager.ActivePoolItem();
                 tempObj.transform.right = direction;
                 tempObj.transform.position = headAttackTransform.position;
-                tempObj.GetComponent<BossHeadBullet>().Setup(headAttackPoolManager);
+                tempObj.GetComponent<BossHeadBullet>().Setup(headAttackPoolManager,this);
             }
 
             yield return new WaitForSeconds(fireRateTime);

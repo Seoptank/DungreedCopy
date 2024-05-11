@@ -143,6 +143,7 @@ public class DialogueManager : MonoBehaviour, IPointerDownHandler
         foreach (char letter in line.ToCharArray())
         {
             endingDialogue.text += letter;
+            AudioManager.Instance.PlaySFX("Text");
             yield return new WaitForSeconds(typingEffectWaitTime);
         }
     }

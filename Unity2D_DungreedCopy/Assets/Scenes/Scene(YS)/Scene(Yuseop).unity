@@ -11309,6 +11309,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21d847703a6fae4fad945e6b51d703a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attackCursorImg: {fileID: 2800000, guid: 1610c6001a6f01548a521d071d373cb6, type: 3}
+  attackCursorImg2: {fileID: 2800000, guid: 022a727333af2004eb8ae3d42eecd8ff, type: 3}
+  originCursorImg: {fileID: 2800000, guid: 628e49d4a93e9fc40a5decdd1a311360, type: 3}
 --- !u!114 &1085413680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15584,6 +15587,26 @@ PrefabInstance:
     - target: {fileID: 604881876428894985, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
       propertyPath: m_Name
       value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.size
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.data[27].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9c948aea551b94d95a15c3334ba83cd8, type: 3}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.data[27].name
+      value: BossSwordSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.data[28].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.data[28].name
+      value: BossHeadBullet
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

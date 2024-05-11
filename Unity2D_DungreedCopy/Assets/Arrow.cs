@@ -68,7 +68,6 @@ public class Arrow : MonoBehaviour
         yield return new WaitForSeconds(deactivateTime);
         poolManager.DeactivePoolItem(this.gameObject);
     }
-
     private void HitEffect()
     {
         GameObject hitEffect = hitEffectPoolManager.ActivePoolItem();

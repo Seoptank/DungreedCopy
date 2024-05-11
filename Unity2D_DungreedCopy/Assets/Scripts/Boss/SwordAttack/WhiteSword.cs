@@ -27,11 +27,14 @@ public class WhiteSword : MonoBehaviour
     private PoolManager     poolManager;
     private PoolManager     swordHitEffectPoolManager;
     private PlayerStats     playerStats;
-    public void Setup(PoolManager poolManager)
+    [SerializeField]
+    private BossPattern     bossPattern;
+    public void Setup(PoolManager poolManager,BossPattern parentBossPattern)
     {
         this.poolManager = poolManager;
         swordHitEffectPoolManager   = new PoolManager(swordHitEffectPrefab);
         deactivateEffectpoolManager = new PoolManager(deactivateEffectPrefab);
+        bossPattern = parentBossPattern;
 
         isThrowing = true;
 
@@ -56,7 +59,7 @@ public class WhiteSword : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.name == "Player")
+        if(collision.gameObject.name == "Player" && !PlayerController.instance.isDie && !bossPattern.isDie)
         {
             PlayerController.instance.TakeDamage(swordAtt);
         }

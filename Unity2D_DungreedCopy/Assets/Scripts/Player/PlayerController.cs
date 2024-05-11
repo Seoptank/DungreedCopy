@@ -169,7 +169,7 @@ public class PlayerController : MonoBehaviour
         RaycastHit2D hit = Physics2D.Raycast(transform.position, seeDir, 2, LayerMask.GetMask("NPC"));
         Debug.DrawRay(transform.position, seeDir * 2, Color.red);
 
-        if(hit.collider != null)
+        if (hit.collider != null)
         {
             curNPC = hit.collider.gameObject.GetComponent<NPC>();
         }

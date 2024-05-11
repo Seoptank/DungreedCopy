@@ -21,10 +21,15 @@ public class BossHeadBullet : MonoBehaviour
     private PoolManager             poolManager;
     private MainCameraController    mainCam;
     private BoxCollider2D           thisBound;
+    [SerializeField]
+    private BossPattern             bossPattern; 
 
-    public void Setup(PoolManager poolManager)
+    public void Setup(PoolManager poolManager,BossPattern parentBossPattern)
     {
+        AudioManager.Instance.PlaySFX("BossHeadBullet");
         this.poolManager = poolManager;
+
+        bossPattern = parentBossPattern;
     }
 
     private void Awake()
@@ -50,7 +55,7 @@ public class BossHeadBullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.name == "Player")
+        if(collision.gameObject.name == "Player" && !PlayerController.instance.isDie && !bossPattern.isDie)
         {
             // bullet 비활성화
             DeactivateBullet();

@@ -103,6 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc42ab221867b5e418e417579150971a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossPattern: {fileID: 1747295789226753855}
 --- !u!1 &214913120384659893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1746,6 +1747,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc42ab221867b5e418e417579150971a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bossPattern: {fileID: 1747295789226753855}
 --- !u!1 &5926452043978790952
 GameObject:
   m_ObjectHideFlags: 0

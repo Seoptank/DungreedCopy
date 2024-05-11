@@ -24,10 +24,13 @@ public class BossSword : MonoBehaviour
 
     private SpriteRenderer      spriteRenderer;
     private UIEffectManager     uiEffectManager;
+    private BossPattern         bossPattern;
     
-    public void Setup(PoolManager poolManager)
+    public void Setup(PoolManager poolManager,BossPattern parentBossPattern)
     {
         this.poolManager = poolManager;
+
+        bossPattern = parentBossPattern;
     }
 
     private void Awake()
@@ -78,7 +81,7 @@ public class BossSword : MonoBehaviour
         DeactivateSword();
         white.transform.position = transform.position;
         white.transform.rotation = transform.rotation;
-        white.GetComponent<WhiteSword>().Setup(whiteSwordPoolManager);
+        white.GetComponent<WhiteSword>().Setup(whiteSwordPoolManager, bossPattern);
 
     }
     private void SpawnCharge()

@@ -6,7 +6,6 @@ public class RangedAttackHitEffect : MonoBehaviour
 {
     private PoolManager     poolManager;
 
-
     public void Setup(PoolManager pool)
     {
         this.poolManager = pool;

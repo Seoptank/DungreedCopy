@@ -38,6 +38,8 @@ public class TransformToBossDungeon : MonoBehaviour
                     // 변경할 씬 이름으로 변경
                     player.curSceneName = transferBossStageName;
 
+                    player.curDungeonNum = 0;
+
                     // dungeonName List정리
                     map.dungeonNames.Clear();
 
