@@ -14,11 +14,11 @@
 ## 🧪사용 기술
 |**기술**|**설명**|
 |:---:|:---|
-|디자인 패턴|● 싱글톤 패턴을 사용하여 Manager 관리<br> ● FSM패턴을 통해 몬스터 AI,플레이어 애니메이션 관리 <br>● StrategePattern을 통해 다수의|
-|ObjectPooling|오브젝트 풀링을 통한 GC 호출 최소화|
+|SingleTone(싱글톤 패턴)|싱글톤 패턴을 통해 Manager관리하여 메모리 낭비 방지|
+|FSM(상태패턴)|상태 패턴을 통해 플레이어의 애니메이션,보스 및 몬스터의 AI통제|
+|Strategy(전략패턴)|전략 패턴을 통해 공통으로 쓰이는 알고리즘을 정의하고 각각 캡술화 하여 수정의 용이성과 객체간 결합도 최소화|
+|ObjectPooling(오브젝트 풀링 패턴)|오브젝트 풀링을 통한 GC 호출 최소화|
 |ScriptableObject|아이템을 생성,사용 및 인벤토리 관|
-|||
-|||
 ## 💊구현 기능
 ## [🚩기술서 링크](https://docs.google.com/presentation/d/1jHJAIKg0ex0KCO2hozneaqXTghVdsbdJ29tOFAVNDkg/edit?usp=sharing)
 ## 🎬 영상링크
