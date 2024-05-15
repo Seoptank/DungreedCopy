@@ -7,8 +7,9 @@
 
 2.**김형수**: 클라이언트(미니맵, 인벤토리, 몬스터AI, UI, 무기 컨트롤러)
 ## 📈프로젝트 개요
-1. 개발 기간: 6주
-2. 개발 환경:  
+<p align="center">
+1. 개발 기간<dr> 6주
+2. 개발 환경<dr>  
 <img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"/><img src="https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white"/><img src="https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white"/>
 
 ## 🧪사용 기술
