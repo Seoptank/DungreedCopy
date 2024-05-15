@@ -3,8 +3,6 @@
 <img src= "https://github.com/Seoptank/DungreedCopy/assets/126733224/74393fa6-9590-4403-a6d9-7c4fbb7075b0">
 <img src= "https://github.com/Seoptank/DungreedCopy/assets/126733224/47698492-305a-4daa-a05b-6dc9d8016eed">
 
-![image](https://github.com/Seoptank/DungreedCopy/assets/126733224/74393fa6-9590-4403-a6d9-7c4fbb7075b0)
-
 
 ## 🧙개발자 소개
 1.**최유섭**: 팀장/클라이언트(플레이어 컨트롤러,보스/몬스터 AI, Effect, UI, NPC)
