@@ -18,8 +18,8 @@ MonoBehaviour:
   <MaxStackSize>k__BackingField: 1
   <Code>k__BackingField: 3
   <Name>k__BackingField: "\uD560\uBC84\uB4DC"
-  <Description>k__BackingField: "\uC6B0\uC8FC\uC758 \uAE30\uC6B4\uC774 \uB2F4\uAE34
-    \uAC80..."
+  <Description>k__BackingField: "\"\uB3C4\uB07C\uCC98\uB7FC \uD639\uC740 \uCC3D\uCC98\uB7FC
+    \uC0AC\uC6A9\uD560 \uC218 \uC788\uB294 \uBB34\uAE30\""
   <ItemImage>k__BackingField: {fileID: 21300000, guid: a65b8dded030604429ebac33ed182223, type: 3}
   <MinDamage>k__BackingField: 25
   <MaxDamage>k__BackingField: 30
