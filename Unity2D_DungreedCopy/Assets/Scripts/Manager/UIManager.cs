@@ -220,10 +220,12 @@ public class UIManager : MonoBehaviour
         if (menuUIon == true)
         {
             Time.timeScale = 0f;
+            PlayerController.instance.dontMovePlayer = true;
         }
         else
         {
             Time.timeScale = 1f;
+            PlayerController.instance.dontMovePlayer = false;
         }
         menuUI.SetActive(menuUIon);
         menuUIon = !menuUIon;
