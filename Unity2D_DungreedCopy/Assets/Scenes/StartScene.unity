@@ -490,6 +490,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1096530358
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1394.1614
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 216.53284
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.8761015
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 294092836318522586, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 604881876428894985, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.size
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.data[27].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 9c948aea551b94d95a15c3334ba83cd8, type: 3}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.data[27].name
+      value: BossSwordSpawn
+      objectReference: {fileID: 0}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.data[28].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
+    - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
+      propertyPath: sfxSounds.Array.data[28].name
+      value: BossHeadBullet
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
 --- !u!1 &1159423203
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,3 +1365,4 @@ SceneRoots:
   - {fileID: 1560604542}
   - {fileID: 61350976}
   - {fileID: 771649948}
+  - {fileID: 1096530358}

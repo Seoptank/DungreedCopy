@@ -60,40 +60,6 @@ public abstract class Test_Monster : MonoBehaviour
         monData.hpBar = monData.canvasHP.GetComponentInChildren<HPBar>();
     }
 
-    public virtual void CheckGround()
-    {
-
-        // 레이캐스트를 위한 시작점과 방향 설정
-        Vector2 rayOrigin = monData.capsuleCollider2D.bounds.center;
-        Vector2 rayDir = Vector2.down;
-
-        float ratDis = 0.02f;
-
-        // 레이를 그리기 위한 끝점 계산
-        Vector2 rayEnd = rayOrigin + rayDir * ratDis;
-
-        RaycastHit2D hit = Physics2D.BoxCast(rayOrigin,
-                                             monData.capsuleCollider2D.bounds.size,
-                                             0, rayDir, ratDis, LayerMask.GetMask("Platform"));
-        if (hit.collider != null)
-        {
-            monData.isGround = true;
-        }
-        else
-            monData.isGround = false;
-
-        if (!monData.isGround)
-        {
-            monData.rigidbody2D.velocity = new Vector2(monData.rigidbody2D.velocity.x, monData.rigidbody2D.velocity.y);
-            monData.rigidbody2D.gravityScale = 1;
-        }
-        else
-        {
-            monData.rigidbody2D.velocity = new Vector2(monData.rigidbody2D.velocity.x, 0);
-            monData.rigidbody2D.gravityScale = 0;
-        }
-    }
-
     // 각각의 Monster 클래스에서 변수값을 셋팅할 수 있게
     public abstract void InitValueSetting();
 

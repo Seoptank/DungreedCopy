@@ -104,6 +104,7 @@ public class MonsterA : Test_Monster
         yield return new WaitForSeconds(5);
         ChangeState(State.Attack);
     }
+
     private IEnumerator Attack()
     {
         Vector3 dir     = (PlayerController.instance.transform.position - transform.position).normalized;
@@ -125,8 +126,8 @@ public class MonsterA : Test_Monster
                 ChangeState(State.Idle);
             }
         }
-
     }
+
     private IEnumerator Die()
     {
         ActivateDieEffect(transform);

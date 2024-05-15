@@ -137,6 +137,7 @@ public class DialogueManager : MonoBehaviour, IPointerDownHandler
             yield return new WaitForSeconds(typingEffectWaitTime);
         }
     }
+
     private IEnumerator EndingTyping(string line)
     {
         endingDialogue.text = "";
