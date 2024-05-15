@@ -1,7 +1,10 @@
 # 🎮Dungreed_Copycat_In_Unity🎮
 **Unity 2D**를 이용해 만든 던그리드 모작입니다.
-<img src= "https://github.com/Seoptank/DungreedCopy/assets/126733224/5b077649-5118-49b0-990f-5ddf3804708f">
+<img src= "https://github.com/Seoptank/DungreedCopy/assets/126733224/74393fa6-9590-4403-a6d9-7c4fbb7075b0">
 <img src= "https://github.com/Seoptank/DungreedCopy/assets/126733224/47698492-305a-4daa-a05b-6dc9d8016eed">
+
+![image](https://github.com/Seoptank/DungreedCopy/assets/126733224/74393fa6-9590-4403-a6d9-7c4fbb7075b0)
+
 
 ## 🧙개발자 소개
 1.**최유섭**: 팀장/클라이언트(플레이어 컨트롤러,보스/몬스터 AI, Effect, UI, NPC)
