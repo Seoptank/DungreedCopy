@@ -32,6 +32,6 @@ public class BossSwordSpawnEffect : MonoBehaviour
         sword.transform.position = transform.position;
         sword.transform.rotation = transform.rotation;
         sword.GetComponent<BossSword>().Setup(SwordPoolManager, boss);
-        AudioManager.Instance.PlaySFX("BossSwordSpawn");
+        AudioManager.Instance.PlaySFX("BossSword");
     }
 }

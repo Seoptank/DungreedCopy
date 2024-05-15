@@ -17,15 +17,12 @@ public class ShopController : MonoBehaviour
         npc = FindObjectOfType<NPC>();
     }
 
-    private void Update()
+    public void HideShop()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && DialogueManager.instance.onShop)
-        {
-            ani.Play("ShopHide");
-            invenAni.Play("Hide");
-            npc.inputKey = false;
-            PlayerController.instance.dontMovePlayer = false;
-            DialogueManager.instance.onShop = false;
-        }
+        ani.Play("ShopHide");
+        invenAni.Play("Hide");
+        npc.inputKey = false;
+        PlayerController.instance.dontMovePlayer = false;
+        DialogueManager.instance.onShop = false;
     }
 }
