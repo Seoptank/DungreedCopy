@@ -10,7 +10,7 @@ public class ChangeCursor : MonoBehaviour
     private Texture2D       attackCursorImg2;
     [SerializeField]
     private Texture2D       originCursorImg;
-    
+
     private PlayerController player;
     private void Awake()
     {
