@@ -69,9 +69,9 @@ public class UIInventoryPage : MonoBehaviour
         }
     }
 
-    internal void UpdateDescription(int itemIndex, Sprite itemImage, string name, string description)
+    internal void UpdateDescription(int itemIndex, Sprite itemImage, string name, int min, int max, float speed, string description)
     {
-        itemDescription.SetDescription(itemImage, name, description);
+        itemDescription.SetDescription(itemImage, name, min, max, speed, description);
         DeselectAllItems();
         listOfUIItems[itemIndex].Select();
     }

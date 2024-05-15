@@ -43,7 +43,7 @@ public class ShopSlot : MonoBehaviour,IPointerEnterHandler,IPointerExitHandler, 
     {
         discriptionUI.SetActive(true);
         baseImage.sprite = baseSprites[1];
-        discriptionUI.GetComponent<UIInventoryDescription>().SetDescription(itemImage.sprite, textName.text, item.Description);
+        discriptionUI.GetComponent<UIInventoryDescription>().SetDescription(itemImage.sprite, textName.text, item.MinDamage, item.MaxDamage, item.AttckSpeed, item.Description);
     }
 
     public void OnPointerExit(PointerEventData eventData)

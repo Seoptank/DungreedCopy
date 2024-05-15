@@ -66,6 +66,8 @@ public class UIManager : MonoBehaviour
     private GameObject notificationTxt;     // UI사용 불가능 알림
     [SerializeField]
     private GameObject[] menuButtons;
+    [SerializeField]
+    private GameObject[] exitButtons;
     private void Awake()
     {
         if(instance == null)
@@ -200,6 +202,10 @@ public class UIManager : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.Escape) && DialogueManager.instance.onShop == false)
         {
+            for(int i = 0; i < exitButtons.Length; i++) 
+            {
+                exitButtons[i].gameObject.SetActive(false);
+            }
             if (menuUIon == true)
             {
                 Time.timeScale = 0f;

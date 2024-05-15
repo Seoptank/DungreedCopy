@@ -12,6 +12,10 @@ public class UIInventoryDescription : MonoBehaviour
     private TMP_Text title;
     [SerializeField]
     private TMP_Text description;
+    [SerializeField]
+    private TMP_Text damage;
+    [SerializeField]
+    private TMP_Text atkspeed;
 
     private RectTransform   rect;               // Discription¿« Rect
     [SerializeField]
@@ -71,12 +75,14 @@ public class UIInventoryDescription : MonoBehaviour
         this.description.text = "";
     }
 
-    public void SetDescription(Sprite sprite, string itemName, string itemDescription)
+    public void SetDescription(Sprite sprite, string itemName, int minATK, int maxATK, float atkspd,string itemDescription)
     {
         this.itemImage.gameObject.SetActive(true);
         this.itemImage.sprite = sprite;
         this.itemImage.SetNativeSize();
         this.title.text = itemName;
+        this.damage.text = minATK + " ~ " + maxATK;
+        this.atkspeed.text = atkspd.ToString();
         this.description.text = itemDescription;
     }
 }

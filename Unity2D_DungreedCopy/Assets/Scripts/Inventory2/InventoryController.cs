@@ -94,7 +94,7 @@ public class InventoryController : MonoBehaviour
         
         ItemSO item = inventoryItem.item;
         string description = PrepareDescription(inventoryItem);
-        inventoryUI.UpdateDescription(itemIndex, item.ItemImage, item.Name, item.Description);
+        inventoryUI.UpdateDescription(itemIndex, item.ItemImage, item.Name, item.MinDamage,item.MaxDamage,item.AttckSpeed,item.Description);
     }
 
     private string PrepareDescription(InventoryItem inventoryItem)
