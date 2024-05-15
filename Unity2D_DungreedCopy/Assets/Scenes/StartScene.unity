@@ -549,7 +549,7 @@ PrefabInstance:
     - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
       propertyPath: sfxSounds.Array.data[27].clip
       value: 
-      objectReference: {fileID: 8300000, guid: 9c948aea551b94d95a15c3334ba83cd8, type: 3}
+      objectReference: {fileID: 8300000, guid: cc6699269b4c1d44ea1e860518b9bb73, type: 3}
     - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
       propertyPath: sfxSounds.Array.data[27].name
       value: BossSwordSpawn
@@ -557,7 +557,7 @@ PrefabInstance:
     - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
       propertyPath: sfxSounds.Array.data[28].clip
       value: 
-      objectReference: {fileID: 8300000, guid: f11db4559b3ffff45b62e9327fc5535d, type: 3}
+      objectReference: {fileID: 8300000, guid: d9419ba0bfac1e84a95418ac5851caf6, type: 3}
     - target: {fileID: 8128185778346589453, guid: fbe4eaac8ad07f74d81078314368147c, type: 3}
       propertyPath: sfxSounds.Array.data[28].name
       value: BossHeadBullet
