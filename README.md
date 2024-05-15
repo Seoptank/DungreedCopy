@@ -51,5 +51,5 @@
     * 상점 UI
   * 기타 UI
     * 미니맵, 던전 맵, 데미지 텍스트, 설정 메뉴창 
-## [🚩기술서 링크](https://docs.google.com/presentation/d/1jHJAIKg0ex0KCO2hozneaqXTghVdsbdJ29tOFAVNDkg/edit?usp=sharing)
+## [🚩기술서 링크](https://docs.google.com/document/d/12RAUpf2nsJi6TYyTKgMJNl0_tWi3duy1ByKzo4MFcLE/edit?usp=sharing)
 ## 🎬 영상링크
