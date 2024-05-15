@@ -308,7 +308,7 @@ public class PlayerController : MonoBehaviour
     //======================================================================================
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "ItemFairy" && playerStats.HP < playerStats.MaxHP)
+        if (collision.gameObject.CompareTag("ItemFairy") && playerStats.HP < playerStats.MaxHP)
         {
             collision.GetComponent<ItemBase>().Use(this.gameObject);
         }
