@@ -239,6 +239,7 @@ public class MonsterG2 : Test_Monster
             {
                 vel.x = 0;
                 ChangeState(State.Attack);
+                yield break;
             }
             else vel.x = seeDir.x * startSpeed * curveValue;
 

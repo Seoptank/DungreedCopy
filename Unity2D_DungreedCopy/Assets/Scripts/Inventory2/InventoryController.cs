@@ -64,7 +64,7 @@ public class InventoryController : MonoBehaviour
             Debug.Log("판매");
 
             // 플레이어 현재 골드 -= 구매 골드 * 0.5
-            PlayerStats.instance.gold += inventoryItem.item.Gold / 2;
+            PlayerStats.instance.GOLD += inventoryItem.item.Gold / 2;
 
             AudioManager.Instance.PlaySFX("Buy");
         }
