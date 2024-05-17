@@ -54,4 +54,4 @@
   * 기타 UI
     * 미니맵, 던전 맵, 데미지 텍스트, 설정 메뉴창 
 ## [🚩기술서 링크](https://docs.google.com/document/d/12RAUpf2nsJi6TYyTKgMJNl0_tWi3duy1ByKzo4MFcLE/edit?usp=sharing)
-## 🎬 영상링크
+## [🎬 영상링크](https://youtu.be/QkjdXn8ulF4?si=nGQxzTl_Vd0JbfyK)
